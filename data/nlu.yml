@@ -1,0 +1,175 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: state_name
+  examples: |
+    - My name is [John Smith](name).
+    - I'm [Sarah](name).
+    - You can call me [Alex Xela](name).
+    - I go by [Emily](name).
+    - My name's [Michael](name).
+    - Hi, I'm [Rahul Sharma](name).
+    - I'm [Priya Patel](name).
+    - This is [Sanjay Singh](name).
+    - Call me [Kavita Gupta](name).
+    - People know me as [Arun Kumar](name).
+    - Just [Mira](name).
+    - I go by [Amitabh Bachchan](name).
+    - Known as [Kriti Sanon](name).
+    - You can address me as [Mohammed Ali Khan](name).
+    - [Neha](name).
+    - I'm [Sachin Ramesh Tendulkar](name), nice to meet you.
+    - [Anushka Sharma](name) here.
+    - [Ravi Shankar](name), at your service.
+    - [Akshay Kumar](name) at your disposal.
+    - [Deepika Padukone](name), pleased to meet you.
+    - [Gautam Gambhir](name) is the name.
+    - Folks call me [Kareena Kapoor](name).
+    - [Virat Kohli](name), at your service.
+    - [Kangana Ranaut](name), pleased to meet you.
+    - I am [Vijay Kumar Sharma](name).    
+
+- intent: state_city
+  examples: |
+    - I live in [New Delhi](city)
+    - I am from [New York](city)
+    - My city is [Chennai](city)
+    - I am a resident of [Agra](city)
+    - I'm from [London](city)
+    - I'm from [New York City](city), born and raised.
+    - Originally hailing from [London](city), that's my hometown.
+    - I grew up in [Sydney](city), Australia.
+    - I'm a proud resident of [Tokyo](city), Japan.
+    - [Paris](city) is where I call home.
+    - I'm from [Rio de Janeiro](city), Brazil, beautiful city.
+    - Hailing from [Cape Town](city), South Africa.
+    - My roots lie in [Rome](city), Italy.
+    - Born in [Beijing](city), China, proud to be from there.
+    - I'm from [Moscow](city), Russia, cold but charming.
+    - [Dubai](city) is my hometown, quite the metropolis.
+    - Raised in [Toronto](city), Canada, great city to grow up in.
+    - I'm from [Mumbai](city), India, bustling and vibrant.
+    - [Berlin](city), Germany, that's where I'm from.
+    - I call [Mexico City](city) home, full of culture and life.
+    - Born and bred in [Stockholm](city), Sweden.
+    - [Buenos Aires](city), Argentina, that's my city.
+    - Proudly hailing from [Amsterdam](city), Netherlands.
+    - [Seoul](city), South Korea, my beloved hometown.
+    - From [Istanbul](city), Turkey, where East meets West.
+    
+- intent: state_phone
+  examples: |
+    - [8965745826](phone)
+    - My number is [9687451203](phone)
+    - Here you go [7895216302](phone)
+    - This is my phone number [8965421503](phone)
+    - My phone number is [6985412506](phone)
+    - [1234567890](phone).
+    - [9876543210](phone) is my number.
+    - Feel free to call me on [5551234567](phone).
+    - My number is [9998887776](phone).
+    - [4567890123](phone) is my contact.
+    - You can reach me at [3216549870](phone).
+    - Call or text me at [7890123456](phone).
+    - My digits are [2345678901](phone).
+    - Reach out to me at [8901234567](phone).
+    - You can find me at [5678901234](phone).
+    - Call me anytime on [8765432109](phone).
+    - You can reach me at [2109876543](phone).
+    - My number is [6789012345](phone).
+    - Get in touch with me at [5432109876](phone).
+    - Feel free to call me on [4567890123](phone).
+    - You can reach me at [1234567890](phone).
+    - My digits are [9876543210](phone).
+    - Reach out to me at [5551234567](phone).
+    - Call me anytime on [9998887776](phone).
+    - You can find me at [3216549870](phone).
